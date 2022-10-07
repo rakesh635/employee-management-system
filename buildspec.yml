@@ -16,8 +16,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn test 
-      - mvn package
+#      - mvn test 
+      - mvn -DskipTests=true package
       - docker build -t rakesh635/employeemgmt:latest .
   post_build:
     commands:
