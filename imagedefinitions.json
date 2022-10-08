@@ -1,6 +1,6 @@
 [
   {
-    "name": "AddressBook_Container",
+    "name": "Employeemgmt",
     "imageUri": "rakesh635/employeemgmt:latest"
   }
 ]
