@@ -21,11 +21,11 @@ jobs:
         with:
           java-version: '11'
 
-#      - name: Build with Maven
-#        run: mvn -DskipTests=true clean install
+      - name: Build with Maven
+        run: mvn -DskipTests=true clean install
         
       - name: SpirngBoot repackage with Maven
-        run: mvn -DskipTests=true clean package spring-boot:repackage
+        run: mvn -DskipTests=true clean package spring-boot:package
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
