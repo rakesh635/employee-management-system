@@ -30,4 +30,8 @@ artifacts:
 #    - Dockerrun.aws.json
 #    - imageDetail.json
     - imagedefinitions.json
+  secondary-artifacts:
+    artifact1:
+      files:
+        - target/employee_app-0.0.1-SNAPSHOT.jar
   discard-paths: yes
