@@ -1,6 +1,6 @@
 [
   {
-    "name": "Employeemgmt_Container",
+    "name": "Employeemgmt1_Container",
     "imageUri": "rakesh635/employeemgmt:latest"
   }
 ]
